@@ -6,9 +6,9 @@ The producer generates items and puts items onto the table. The consumer will pi
 
 # Compiling commands
 
-$ g++ producer.cpp -pthread -lrt -o producer
-$ g++ consumer.cpp -pthread -lrt -o consumer
-$ ./producer & ./consumer &
+ g++ producer.cpp -pthread -lrt -o producer
+ g++ consumer.cpp -pthread -lrt -o consumer
+ ./producer & ./consumer &
 
 # Implementation
 
