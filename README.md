@@ -15,4 +15,4 @@ $ ./producer & ./consumer &
 I have two files, 'consumer.cpp' and 'producer.cpp.' Producer creates two items in the table, while consumer takes an item from table. They work synchronously and share memory and sephamores. "int * table" is set to 0, and is incremented in value everytime an item production is called. stops taking item when value is 2. the consumer.cpp decrements '* table' but stops when its value is 0. Program is set to exit when user pressed enter. 
 
 # Example
-![image](https://user-images.githubusercontent.com/94094992/199385168-b1ae3566-bd14-4a07-b83d-273395defb3c.png)
+<img src="https://user-images.githubusercontent.com/94094992/199385168-b1ae3566-bd14-4a07-b83d-273395defb3c.png" width=50>
